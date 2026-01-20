@@ -1,0 +1,181 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background: #f4f6f9;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Judul */
+h2 {
+  text-align: center;
+  margin: 30px 0;
+  color: #2c3e50;
+}
+
+/* Tabel */
+table {
+  border-collapse: collapse;
+  width: 85%;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+th {
+  background: #2c3e50;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+tr:hover {
+  background: #f1f7ff;
+}
+
+/* Link */
+a {
+  text-decoration: none;
+  padding: 6px 12px;
+  margin: 2px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+a[href*="tambah"] {
+  display: inline-block;
+  background: #27ae60;
+  color: white;
+  margin-bottom: 15px;
+}
+
+a[href*="tambah"]:hover {
+  background: #219150;
+}
+
+a[href*="edit"] {
+  background: #2980b9;
+  color: white;
+}
+
+a[href*="edit"]:hover {
+  background: #21618c;
+}
+
+a[href*="hapus"] {
+  background: #c0392b;
+  color: white;
+}
+
+a[href*="hapus"]:hover {
+  background: #962d22;
+}
+
+/* Form */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  width: 400px;
+  margin: 20px auto;
+}
+
+form table {
+  width: 100%;
+  box-shadow: none;
+}
+
+form td {
+  padding: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #219150;
+}
+
+/* Style umum untuk select */
+select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  cursor: pointer;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek hover */
+select:hover {
+  border-color: #888;
+}
+
+/* Saat fokus (aktif) */
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+/* Style untuk option */
+option {
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Supaya disabled option (misal: -- Pilih Menu --) tampil beda */
+option:disabled {
+  color: #aaa;
+  font-style: italic;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
